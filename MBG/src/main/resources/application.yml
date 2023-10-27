@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: "jdbc:mysql://192.168.86.26:12306/dev"
+    password: "$%^s=pIlI$%TGT#$GR#$R$CFscfds"
+    username: "dev"
