@@ -48,59 +48,42 @@
             <scope>test</scope>
         </dependency>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.5.4</version>
+        </dependency>
+        <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-generator</artifactId>
             <version>3.5.4</version>
         </dependency>
         <dependency>
             <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus</artifactId>
+            <artifactId>mybatis-plus-boot-starter-test</artifactId>
             <version>3.5.4</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.jetbrains/annotations -->
+
+        <!--freemarker模板-->
         <dependency>
-            <groupId>org.jetbrains</groupId>
-            <artifactId>annotations</artifactId>
-            <version>16.0.1</version>
+            <groupId>org.freemarker</groupId>
+            <artifactId>freemarker</artifactId>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.beetl/beetl-core -->
-        <dependency>
-            <groupId>org.beetl</groupId>
-            <artifactId>beetl-core</artifactId>
-            <version>2.2.3</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/com.jfinal/jfinal -->
-        <dependency>
-            <groupId>com.jfinal</groupId>
-            <artifactId>jfinal</artifactId>
-            <version>5.1.5</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
         <dependency>
             <groupId>org.freemarker</groupId>
             <artifactId>freemarker</artifactId>
             <version>2.3.32</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.velocity/velocity-engine-core -->
         <dependency>
-            <groupId>org.apache.velocity</groupId>
-            <artifactId>velocity-engine-core</artifactId>
-            <version>2.3</version>
+            <groupId>io.swagger</groupId>
+            <artifactId>swagger-annotations</artifactId>
+            <version>1.5.13</version>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.jodd/jodd-core -->
-        <dependency>
-            <groupId>org.jodd</groupId>
-            <artifactId>jodd-core</artifactId>
-            <version>5.3.0</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.jodd/jodd-lagarto -->
-        <dependency>
-            <groupId>org.jodd</groupId>
-            <artifactId>jodd-lagarto</artifactId>
-            <version>6.0.6</version>
-        </dependency>
-
 
     </dependencies>
 
