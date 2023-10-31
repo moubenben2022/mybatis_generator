@@ -1,6 +1,6 @@
-package com.mbb.mbg.mapper;
+package com.mbb.apicenter.mapper;
 
-import com.mbb.mbg.entity.ElementPath;
+import com.mbb.apicenter.entity.ElementOwner;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 
@@ -13,6 +13,6 @@ import org.apache.ibatis.annotations.Mapper;
  * @since 2023-10-27
  */
 @Mapper
-public interface ElementPathMapper extends BaseMapper<ElementPath> {
+public interface ElementOwnerMapper extends BaseMapper<ElementOwner> {
 
 }

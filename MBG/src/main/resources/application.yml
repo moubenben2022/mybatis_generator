@@ -8,9 +8,9 @@ spring:
 
 # ?????????
 code-generator:
-  parent: com.mbb.mbg # ??
+  parent: com.mbb.apicenter # ??
   author: moubenben # ????
-  moduleName: mbg # ????
+  moduleName: apicenter # ????
   controllerName: controller # controller???
   serviceName: service #service???
   serviceImplName: service.impl # service?????
@@ -23,4 +23,4 @@ code-generator:
   date: "2023-10-27"
   codeDir: "/out"
   mapperXmlPath: "/out"
-  tables: "element_path"
+  tables: "element_path,element_owner"

@@ -1,8 +1,8 @@
-package com.mbb.mbg.service.impl;
+package com.mbb.apicenter.service.impl;
 
-import com.mbb.mbg.entity.ElementPath;
-import com.mbb.mbg.mapper.ElementPathMapper;
-import com.mbb.mbg.service.ElementPathService;
+import com.mbb.apicenter.entity.ElementPath;
+import com.mbb.apicenter.mapper.ElementPathMapper;
+import com.mbb.apicenter.service.ElementPathService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

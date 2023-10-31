@@ -1,4 +1,4 @@
-package com.mbb.mbg.controller;
+package com.mbb.apicenter.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2023-10-27
  */
 @RestController
-@RequestMapping("/elementPath")
-public class ElementPathController {
+@RequestMapping("/elementOwner")
+public class ElementOwnerController {
 
 }

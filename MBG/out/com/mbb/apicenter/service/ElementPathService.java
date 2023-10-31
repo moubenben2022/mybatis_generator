@@ -1,6 +1,6 @@
-package com.mbb.mbg.service;
+package com.mbb.apicenter.service;
 
-import com.mbb.mbg.entity.ElementPath;
+import com.mbb.apicenter.entity.ElementPath;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
